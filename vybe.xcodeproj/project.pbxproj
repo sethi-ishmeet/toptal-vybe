@@ -14,6 +14,7 @@
 		DCFB625227B42CEE006A6735 /* vybeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB625127B42CEE006A6735 /* vybeTests.swift */; };
 		DCFB625C27B42CEE006A6735 /* vybeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB625B27B42CEE006A6735 /* vybeUITests.swift */; };
 		DCFB625E27B42CEE006A6735 /* vybeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB625D27B42CEE006A6735 /* vybeUITestsLaunchTests.swift */; };
+		DCFB626C27B42D49006A6735 /* sample.mov in Resources */ = {isa = PBXBuildFile; fileRef = DCFB626B27B42D49006A6735 /* sample.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DCFB625727B42CEE006A6735 /* vybeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vybeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFB625B27B42CEE006A6735 /* vybeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vybeUITests.swift; sourceTree = "<group>"; };
 		DCFB625D27B42CEE006A6735 /* vybeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vybeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCFB626B27B42D49006A6735 /* sample.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		DCFB623F27B42CE1006A6735 /* vybe */ = {
 			isa = PBXGroup;
 			children = (
+				DCFB626A27B42D3D006A6735 /* video */,
 				DCFB624027B42CE1006A6735 /* vybeApp.swift */,
 				DCFB624227B42CE1006A6735 /* ContentView.swift */,
 				DCFB624427B42CEC006A6735 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				DCFB625D27B42CEE006A6735 /* vybeUITestsLaunchTests.swift */,
 			);
 			path = vybeUITests;
+			sourceTree = "<group>";
+		};
+		DCFB626A27B42D3D006A6735 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB626B27B42D49006A6735 /* sample.mov */,
+			);
+			path = video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				DCFB624827B42CEC006A6735 /* Preview Assets.xcassets in Resources */,
 				DCFB624527B42CEC006A6735 /* Assets.xcassets in Resources */,
+				DCFB626C27B42D49006A6735 /* sample.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
