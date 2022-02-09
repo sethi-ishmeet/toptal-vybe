@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCFB624127B42CE1006A6735 /* vybeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB624027B42CE1006A6735 /* vybeApp.swift */; };
+		DCFB624327B42CE1006A6735 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB624227B42CE1006A6735 /* ContentView.swift */; };
+		DCFB624527B42CEC006A6735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFB624427B42CEC006A6735 /* Assets.xcassets */; };
+		DCFB624827B42CEC006A6735 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFB624727B42CEC006A6735 /* Preview Assets.xcassets */; };
+		DCFB625227B42CEE006A6735 /* vybeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB625127B42CEE006A6735 /* vybeTests.swift */; };
+		DCFB625C27B42CEE006A6735 /* vybeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB625B27B42CEE006A6735 /* vybeUITests.swift */; };
+		DCFB625E27B42CEE006A6735 /* vybeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB625D27B42CEE006A6735 /* vybeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCFB624E27B42CEE006A6735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFB623527B42CE0006A6735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFB623C27B42CE0006A6735;
+			remoteInfo = vybe;
+		};
+		DCFB625827B42CEE006A6735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFB623527B42CE0006A6735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFB623C27B42CE0006A6735;
+			remoteInfo = vybe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCFB623D27B42CE0006A6735 /* vybe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vybe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFB624027B42CE1006A6735 /* vybeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vybeApp.swift; sourceTree = "<group>"; };
+		DCFB624227B42CE1006A6735 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCFB624427B42CEC006A6735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCFB624727B42CEC006A6735 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCFB624D27B42CEE006A6735 /* vybeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vybeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFB625127B42CEE006A6735 /* vybeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vybeTests.swift; sourceTree = "<group>"; };
+		DCFB625727B42CEE006A6735 /* vybeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vybeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFB625B27B42CEE006A6735 /* vybeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vybeUITests.swift; sourceTree = "<group>"; };
+		DCFB625D27B42CEE006A6735 /* vybeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vybeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFB623A27B42CE0006A6735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFB624A27B42CEE006A6735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFB625427B42CEE006A6735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFB623427B42CE0006A6735 = {
+			isa = PBXGroup;
+			children = (
+				DCFB623F27B42CE1006A6735 /* vybe */,
+				DCFB625027B42CEE006A6735 /* vybeTests */,
+				DCFB625A27B42CEE006A6735 /* vybeUITests */,
+				DCFB623E27B42CE0006A6735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFB623E27B42CE0006A6735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB623D27B42CE0006A6735 /* vybe.app */,
+				DCFB624D27B42CEE006A6735 /* vybeTests.xctest */,
+				DCFB625727B42CEE006A6735 /* vybeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFB623F27B42CE1006A6735 /* vybe */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB624027B42CE1006A6735 /* vybeApp.swift */,
+				DCFB624227B42CE1006A6735 /* ContentView.swift */,
+				DCFB624427B42CEC006A6735 /* Assets.xcassets */,
+				DCFB624627B42CEC006A6735 /* Preview Content */,
+			);
+			path = vybe;
+			sourceTree = "<group>";
+		};
+		DCFB624627B42CEC006A6735 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB624727B42CEC006A6735 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCFB625027B42CEE006A6735 /* vybeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB625127B42CEE006A6735 /* vybeTests.swift */,
+			);
+			path = vybeTests;
+			sourceTree = "<group>";
+		};
+		DCFB625A27B42CEE006A6735 /* vybeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB625B27B42CEE006A6735 /* vybeUITests.swift */,
+				DCFB625D27B42CEE006A6735 /* vybeUITestsLaunchTests.swift */,
+			);
+			path = vybeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFB623C27B42CE0006A6735 /* vybe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFB626127B42CEE006A6735 /* Build configuration list for PBXNativeTarget "vybe" */;
+			buildPhases = (
+				DCFB623927B42CE0006A6735 /* Sources */,
+				DCFB623A27B42CE0006A6735 /* Frameworks */,
+				DCFB623B27B42CE0006A6735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vybe;
+			productName = vybe;
+			productReference = DCFB623D27B42CE0006A6735 /* vybe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCFB624C27B42CEE006A6735 /* vybeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFB626427B42CEE006A6735 /* Build configuration list for PBXNativeTarget "vybeTests" */;
+			buildPhases = (
+				DCFB624927B42CEE006A6735 /* Sources */,
+				DCFB624A27B42CEE006A6735 /* Frameworks */,
+				DCFB624B27B42CEE006A6735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFB624F27B42CEE006A6735 /* PBXTargetDependency */,
+			);
+			name = vybeTests;
+			productName = vybeTests;
+			productReference = DCFB624D27B42CEE006A6735 /* vybeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCFB625627B42CEE006A6735 /* vybeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFB626727B42CEE006A6735 /* Build configuration list for PBXNativeTarget "vybeUITests" */;
+			buildPhases = (
+				DCFB625327B42CEE006A6735 /* Sources */,
+				DCFB625427B42CEE006A6735 /* Frameworks */,
+				DCFB625527B42CEE006A6735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFB625927B42CEE006A6735 /* PBXTargetDependency */,
+			);
+			name = vybeUITests;
+			productName = vybeUITests;
+			productReference = DCFB625727B42CEE006A6735 /* vybeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFB623527B42CE0006A6735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DCFB623C27B42CE0006A6735 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DCFB624C27B42CEE006A6735 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DCFB623C27B42CE0006A6735;
+					};
+					DCFB625627B42CEE006A6735 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DCFB623C27B42CE0006A6735;
+					};
+				};
+			};
+			buildConfigurationList = DCFB623827B42CE0006A6735 /* Build configuration list for PBXProject "vybe" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCFB623427B42CE0006A6735;
+			productRefGroup = DCFB623E27B42CE0006A6735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFB623C27B42CE0006A6735 /* vybe */,
+				DCFB624C27B42CEE006A6735 /* vybeTests */,
+				DCFB625627B42CEE006A6735 /* vybeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFB623B27B42CE0006A6735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFB624827B42CEC006A6735 /* Preview Assets.xcassets in Resources */,
+				DCFB624527B42CEC006A6735 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFB624B27B42CEE006A6735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFB625527B42CEE006A6735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFB623927B42CE0006A6735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFB624327B42CE1006A6735 /* ContentView.swift in Sources */,
+				DCFB624127B42CE1006A6735 /* vybeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFB624927B42CEE006A6735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFB625227B42CEE006A6735 /* vybeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFB625327B42CEE006A6735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFB625E27B42CEE006A6735 /* vybeUITestsLaunchTests.swift in Sources */,
+				DCFB625C27B42CEE006A6735 /* vybeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCFB624F27B42CEE006A6735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFB623C27B42CE0006A6735 /* vybe */;
+			targetProxy = DCFB624E27B42CEE006A6735 /* PBXContainerItemProxy */;
+		};
+		DCFB625927B42CEE006A6735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFB623C27B42CE0006A6735 /* vybe */;
+			targetProxy = DCFB625827B42CEE006A6735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCFB625F27B42CEE006A6735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCFB626027B42CEE006A6735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFB626227B42CEE006A6735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vybe/Preview Content\"";
+				DEVELOPMENT_TEAM = 5493B9BB4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toptal.vybe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCFB626327B42CEE006A6735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vybe/Preview Content\"";
+				DEVELOPMENT_TEAM = 5493B9BB4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toptal.vybe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCFB626527B42CEE006A6735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5493B9BB4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toptal.vybeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vybe.app/vybe";
+			};
+			name = Debug;
+		};
+		DCFB626627B42CEE006A6735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5493B9BB4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toptal.vybeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vybe.app/vybe";
+			};
+			name = Release;
+		};
+		DCFB626827B42CEE006A6735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5493B9BB4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toptal.vybeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vybe;
+			};
+			name = Debug;
+		};
+		DCFB626927B42CEE006A6735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5493B9BB4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toptal.vybeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vybe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFB623827B42CE0006A6735 /* Build configuration list for PBXProject "vybe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFB625F27B42CEE006A6735 /* Debug */,
+				DCFB626027B42CEE006A6735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFB626127B42CEE006A6735 /* Build configuration list for PBXNativeTarget "vybe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFB626227B42CEE006A6735 /* Debug */,
+				DCFB626327B42CEE006A6735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFB626427B42CEE006A6735 /* Build configuration list for PBXNativeTarget "vybeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFB626527B42CEE006A6735 /* Debug */,
+				DCFB626627B42CEE006A6735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFB626727B42CEE006A6735 /* Build configuration list for PBXNativeTarget "vybeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFB626827B42CEE006A6735 /* Debug */,
+				DCFB626927B42CEE006A6735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFB623527B42CE0006A6735 /* Project object */;
+}
